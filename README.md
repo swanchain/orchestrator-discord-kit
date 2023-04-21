@@ -18,8 +18,8 @@ Before running the script, you'll need to set up a few things:
 3. Invite the bot to the guilds you want to export user information from. You'll need the `Administrator` permission to do this.
 4. Create a `.env` file in the same directory as the script with the following content:
 
-    discord_token=Your bot's token
-    discord_guild_id=The ID of the guild you want to export user information from
+    - discord_token=Your bot's token
+    - discord_guild_id=The ID of the guild you want to export user information from
 
 ## Usage
 
