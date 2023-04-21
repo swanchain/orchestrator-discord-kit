@@ -70,4 +70,5 @@ async def on_ready():
     return
 
 
-client.run(TOKEN)
+if __name__ == '__main__':
+    client.run(TOKEN)
