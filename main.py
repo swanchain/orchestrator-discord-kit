@@ -72,3 +72,4 @@ async def on_ready():
 
 if __name__ == '__main__':
     client.run(TOKEN)
+    
