@@ -13,9 +13,9 @@ This Python script exports user information from all guilds connected to your Di
 
 Before running the script, you'll need to set up a few things:
 
-1. Install the required Python packages by running `pip install -r requirements.txt`.
+1. Install the required Python packages by running `pip install -r requirements.txt.`
 2. Create a new Discord bot and get its token. You can do this in the [Discord Developer Portal](https://discord.com/developers/applications).
-3. Invite the bot to the guilds you want to export user information from. You'll need the `Administrator` permission to do this.
+3. Invite the bot to the guilds you want to export user information. You'll need the `Administrator` permission to do this.
 4. Create a `.env` file in the same directory as the script with the following content:
 
     - discord_token=Your bot's token
@@ -23,7 +23,7 @@ Before running the script, you'll need to set up a few things:
 
 ## Usage
 
-To run the script, simply execute the `main.py` file with the following command:
+To run the script, execute the `main.py` file with the following command:
 
     python main.py
 
@@ -33,7 +33,7 @@ The script will automatically generate the `userInfo.csv` file in the same direc
 
 If you encounter any issues while running the script, check the following:
 
-- Make sure the bot is properly connected to the guild and has the necessary permissions.
+- Ensure the bot is properly connected to the guild and has the necessary permissions.
 - Check that the `discord_guild_id` in the `.env` file is correct.
 - Ensure that you have the necessary permissions to create and write to files in the script's directory.
 
